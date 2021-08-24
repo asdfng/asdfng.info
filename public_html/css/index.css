@@ -1,4 +1,49 @@
-@media only screen and (max-width: 767px) {
+
+    body {
+        
+        position: fixed;
+        top: 40%;
+        font-family: Courier;
+        font-size: 2vw;
+        background-color: #fffff0;
+        
+        }
+
+    h1 {
+
+        margin-bottom: 0px;
+        
+        }
+
+    li {
+
+        float: left;
+        padding-left: 8px;
+        padding-right: 8px;
+        
+        }
+        
+    ul {
+        
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+        }
+        
+    a {
+
+        text-decoration: none;
+        color: black;
+        
+        }
+        
+    .hidden {
+        
+        display: none !important;
+        
+        }
+        
 @media only screen 
     and (device-width: 414px) 
     and (device-height: 896px) 
@@ -51,52 +96,5 @@
         
         }
     }
-    }
+
     
-@media (min-width: 767px) {
-
-    body {
-        
-        position: fixed;
-        top: 40%;
-        font-family: Courier;
-        font-size: 2vw;
-        background-color: #fffff0;
-        
-        }
-
-    h1 {
-
-        margin-bottom: 0px;
-        
-        }
-
-    li {
-
-        float: left;
-        padding-left: 8px;
-        padding-right: 8px;
-        
-        }
-        
-    ul {
-        
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        
-        }
-        
-    a {
-
-        text-decoration: none;
-        color: black;
-        
-        }
-        
-    .hidden {
-        
-        display: none !important;
-        
-        }
-    }
